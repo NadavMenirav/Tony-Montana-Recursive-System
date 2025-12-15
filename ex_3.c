@@ -1,6 +1,5 @@
 /**********************
  * Nadav Menirav
- * 330845678
  * ex_3
  **********************/
 
@@ -290,4 +289,5 @@ void fillArrayChar(char arr[], int length) {
 	for (int i = 0;i < length;i ++)
 		scanf(" %c", &arr[i]);
 	arr[length] = '\0';
+
 }
